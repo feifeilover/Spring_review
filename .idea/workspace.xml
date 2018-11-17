@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0f0e9f29-80d0-4a84-8650-c45d577043d5" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Spring_Demo4/Spring_Demo4.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring_Demo4/src/com/lfeifei/pojo/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring_Demo4/src/com/lfeifei/test/StudentTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring_Demo4/src/config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring_Demo5/Spring_Demo5.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring_Demo5/src/com/lfeifei/pojo/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring_Demo5/src/com/lfeifei/test/PersonTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring_Demo5/src/config.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -21,7 +21,43 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="Person.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Spring_Demo5/src/com/lfeifei/pojo/Person.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+              <folding>
+                <element signature="e#208#209#0" expanded="true" />
+                <element signature="e#240#241#0" expanded="true" />
+                <element signature="e#286#287#0" expanded="true" />
+                <element signature="e#324#325#0" expanded="true" />
+                <element signature="e#353#354#0" expanded="true" />
+                <element signature="e#389#390#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Spring_Demo5/src/config.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="6" column="89" selection-start-line="6" selection-start-column="89" selection-end-line="6" selection-end-column="89" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PersonTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Spring_Demo5/src/com/lfeifei/test/PersonTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="14" column="19" lean-forward="true" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -62,6 +98,9 @@
         <option value="$PROJECT_DIR$/Spring_Demo4/src/config.xml" />
         <option value="$PROJECT_DIR$/Spring_Demo4/src/com/lfeifei/pojo/Student.java" />
         <option value="$PROJECT_DIR$/Spring_Demo4/src/com/lfeifei/test/StudentTest.java" />
+        <option value="$PROJECT_DIR$/Spring_Demo5/src/com/lfeifei/pojo/Person.java" />
+        <option value="$PROJECT_DIR$/Spring_Demo5/src/config.xml" />
+        <option value="$PROJECT_DIR$/Spring_Demo5/src/com/lfeifei/test/PersonTest.java" />
       </list>
     </option>
   </component>
@@ -95,6 +134,32 @@
             <path>
               <item name="Spring_复习" type="b2602c69:ProjectViewProjectNode" />
               <item name="Spring_复习" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Spring_复习" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spring_复习" type="462c0819:PsiDirectoryNode" />
+              <item name="Spring_Demo5" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Spring_复习" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spring_复习" type="462c0819:PsiDirectoryNode" />
+              <item name="Spring_Demo5" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Spring_复习" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spring_复习" type="462c0819:PsiDirectoryNode" />
+              <item name="Spring_Demo5" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="lfeifei" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Spring_复习" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spring_复习" type="462c0819:PsiDirectoryNode" />
+              <item name="Spring_Demo5" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="lfeifei" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -140,7 +205,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.StudentTest.test01">
+  <component name="RunManager" selected="JUnit.PersonTest.test01 (1)">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -179,6 +244,29 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.lfeifei.test" />
       <option name="MAIN_CLASS_NAME" value="com.lfeifei.test.PersonSingletonTest" />
+      <option name="METHOD_NAME" value="test01" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="PersonTest.test01 (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Spring_Demo5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lfeifei.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.lfeifei.test" />
+      <option name="MAIN_CLASS_NAME" value="com.lfeifei.test.PersonTest" />
       <option name="METHOD_NAME" value="test01" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -300,17 +388,17 @@
     <list>
       <item itemvalue="JUnit.PersonTest.test01" />
       <item itemvalue="JUnit.UserTest.test01" />
-      <item itemvalue="JUnit.PersonSingletonTest.test01" />
+      <item itemvalue="JUnit.PersonTest.test01 (1)" />
       <item itemvalue="JUnit.PersonPrototypeTest.test01" />
       <item itemvalue="JUnit.StudentTest.test01" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PersonTest.test01 (1)" />
         <item itemvalue="JUnit.StudentTest.test01" />
         <item itemvalue="JUnit.PersonPrototypeTest.test01" />
         <item itemvalue="JUnit.PersonSingletonTest.test01" />
         <item itemvalue="JUnit.UserTest.test01" />
-        <item itemvalue="JUnit.PersonTest.test01" />
       </list>
     </recent_temporary>
   </component>
@@ -324,7 +412,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1542435871875</updated>
-      <workItem from="1542435877409" duration="12728000" />
+      <workItem from="1542435877409" duration="13482000" />
     </task>
     <task id="LOCAL-00001" summary="Spring一些入门小练习">
       <created>1542437022989</created>
@@ -354,7 +442,14 @@
       <option name="project" value="LOCAL" />
       <updated>1542457136819</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="xml的构造器方式注入">
+      <created>1542458055179</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1542458055179</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -390,10 +485,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12728000" />
+    <option name="totallyTimeSpent" value="13482000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" />
       <window_info anchor="bottom" id="FindBugs-IDEA" weight="0.3277311" />
@@ -439,7 +535,8 @@
     <MESSAGE value="添加了log4j.properties配置文件" />
     <MESSAGE value="添加Spring_Demo2(xml格式配置)" />
     <MESSAGE value="配置文件中init，destroy，scope方法的用法" />
-    <option name="LAST_COMMIT_MESSAGE" value="配置文件中init，destroy，scope方法的用法" />
+    <MESSAGE value="xml的构造器方式注入" />
+    <option name="LAST_COMMIT_MESSAGE" value="xml的构造器方式注入" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -619,6 +716,35 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
           <caret line="11" column="8" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spring_Demo5/src/com/lfeifei/pojo/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+          <folding>
+            <element signature="e#208#209#0" expanded="true" />
+            <element signature="e#240#241#0" expanded="true" />
+            <element signature="e#286#287#0" expanded="true" />
+            <element signature="e#324#325#0" expanded="true" />
+            <element signature="e#353#354#0" expanded="true" />
+            <element signature="e#389#390#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spring_Demo5/src/config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="89" selection-start-line="6" selection-start-column="89" selection-end-line="6" selection-end-column="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spring_Demo5/src/com/lfeifei/test/PersonTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="14" column="19" lean-forward="true" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="22" />
         </state>
       </provider>
     </entry>
