@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <!--配置UserDaoImpl的bean-->
+    <bean id="userDao" class="com.lfeifei.dao.UserDaoImpl"></bean>
+
+    <!--配置UserServiceImpl的bean-->
+    <bean id="userService" class="com.lfeifei.service.impl.UserServiceImpl">
+        <!--set注入-->
+        <!--properties中的name属性要和set方法注入的字段一致-->
+        <property name="dao" ref="userDao"></property>
+    </bean>
+</beans>
