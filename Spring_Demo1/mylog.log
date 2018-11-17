@@ -1,0 +1,2 @@
+2018-11-17 15:19:25,170  - feifei - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@17d99928: startup date [Sat Nov 17 15:19:25 CST 2018]; root of context hierarchy 
+2018-11-17 15:19:25,218  - feifei - Loading XML bean definitions from class path resource [config.xml] 
