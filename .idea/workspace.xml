@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0f0e9f29-80d0-4a84-8650-c45d577043d5" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Spring_Demo8/Spring_Demo8.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring_Demo8/src/com/lfeifei/pojo/MappingCollection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring_Demo8/src/com/lfeifei/test/MappingCollectionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring_Demo8/src/config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring_Demo_aop1/Spring_Demo_注解1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring_Demo_aop1/src/com/lfeifei/pojo/Tools.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring_Demo_aop1/src/com/lfeifei/test/ToolsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring_Demo_aop1/src/config.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -22,40 +22,56 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MappingCollection.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Spring_Demo8/src/com/lfeifei/pojo/MappingCollection.java">
+      <file leaf-file-name="Tools.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Spring_Demo_aop1/src/com/lfeifei/pojo/Tools.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="42" column="44" selection-start-line="42" selection-start-column="44" selection-end-line="42" selection-end-column="44" />
+            <state relative-caret-position="62">
+              <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#286#287#0" expanded="true" />
-                <element signature="e#316#317#0" expanded="true" />
-                <element signature="e#535#536#0" expanded="true" />
-                <element signature="e#569#570#0" expanded="true" />
-                <element signature="e#599#600#0" expanded="true" />
-                <element signature="e#638#639#0" expanded="true" />
-                <element signature="e#692#693#0" expanded="true" />
-                <element signature="e#728#729#0" expanded="true" />
+                <element signature="e#201#202#0" expanded="true" />
+                <element signature="e#229#230#0" expanded="true" />
+                <element signature="e#347#348#0" expanded="true" />
+                <element signature="e#375#376#0" expanded="true" />
+                <element signature="e#494#495#0" expanded="true" />
+                <element signature="e#526#527#0" expanded="true" />
+                <element signature="e#643#644#0" expanded="true" />
+                <element signature="e#671#672#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="config.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Spring_Demo8/src/config.xml">
+        <entry file="file://$PROJECT_DIR$/Spring_Demo_aop1/src/config.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="283">
-              <caret line="19" column="36" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
+            <state relative-caret-position="209">
+              <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MappingCollectionTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Spring_Demo8/src/com/lfeifei/test/MappingCollectionTest.java">
+      <file leaf-file-name="ToolsTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Spring_Demo_aop1/src/com/lfeifei/test/ToolsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="24" column="26" lean-forward="true" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
+            <state relative-caret-position="111">
+              <caret line="18" column="18" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ArrayCollection.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Spring_Demo7/src/com/lfeifei/pojo/ArrayCollection.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="143">
+              <caret line="32" column="16" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#474#475#0" expanded="true" />
+                <element signature="e#506#507#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -114,6 +130,11 @@
         <option value="$PROJECT_DIR$/Spring_Demo8/src/com/lfeifei/pojo/MappingCollection.java" />
         <option value="$PROJECT_DIR$/Spring_Demo8/src/config.xml" />
         <option value="$PROJECT_DIR$/Spring_Demo8/src/com/lfeifei/test/MappingCollectionTest.java" />
+        <option value="$PROJECT_DIR$/Spring_Demo_aop1/src/Tools.java" />
+        <option value="$PROJECT_DIR$/Spring_Demo_aop1/src/config.xml" />
+        <option value="$PROJECT_DIR$/Spring_Demo_aop1/config.xml" />
+        <option value="$PROJECT_DIR$/Spring_Demo_aop1/src/com/lfeifei/pojo/Tools.java" />
+        <option value="$PROJECT_DIR$/Spring_Demo_aop1/src/com/lfeifei/test/ToolsTest.java" />
       </list>
     </option>
   </component>
@@ -148,6 +169,28 @@
               <item name="Spring_复习" type="b2602c69:ProjectViewProjectNode" />
               <item name="Spring_复习" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Spring_复习" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spring_复习" type="462c0819:PsiDirectoryNode" />
+              <item name="Spring_Demo8" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Spring_复习" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spring_复习" type="462c0819:PsiDirectoryNode" />
+              <item name="Spring_Demo8" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Spring_复习" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spring_复习" type="462c0819:PsiDirectoryNode" />
+              <item name="Spring_Demo_aop1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Spring_复习" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spring_复习" type="462c0819:PsiDirectoryNode" />
+              <item name="Spring_Demo_aop1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -159,7 +202,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="E:/jar包/spring_aop/spring-aop-4.3.9.RELEASE.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -169,6 +212,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\IDEAData\Spring_复习\Spring_Demo_aop1\src" />
+      <recent name="E:\IDEAData\Spring_复习\Spring_Demo_aop1" />
       <recent name="E:\IDEAData\Spring_复习\Spring_Demo1\src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -192,32 +237,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MappingCollectionTest.test02">
+  <component name="RunManager" selected="JUnit.ToolsTest.test01">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="CollectionTest.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Spring_Demo7" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.lfeifei.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.lfeifei.test" />
-      <option name="MAIN_CLASS_NAME" value="com.lfeifei.test.CollectionTest" />
-      <option name="METHOD_NAME" value="test01" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
     </configuration>
     <configuration name="CollectionTest.test02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Spring_Demo7" />
@@ -334,6 +356,29 @@
       </option>
       <patterns />
     </configuration>
+    <configuration name="ToolsTest.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Spring_Demo_注解1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lfeifei.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.lfeifei.test" />
+      <option name="MAIN_CLASS_NAME" value="com.lfeifei.test.ToolsTest" />
+      <option name="METHOD_NAME" value="test01" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -373,19 +418,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.CollectionTest.test01" />
       <item itemvalue="JUnit.CollectionTest.test02" />
       <item itemvalue="JUnit.CollectionTest.test03" />
       <item itemvalue="JUnit.MappingCollectionTest.test01" />
       <item itemvalue="JUnit.MappingCollectionTest.test02" />
+      <item itemvalue="JUnit.ToolsTest.test01" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ToolsTest.test01" />
         <item itemvalue="JUnit.MappingCollectionTest.test02" />
         <item itemvalue="JUnit.MappingCollectionTest.test01" />
         <item itemvalue="JUnit.CollectionTest.test03" />
         <item itemvalue="JUnit.CollectionTest.test02" />
-        <item itemvalue="JUnit.CollectionTest.test01" />
       </list>
     </recent_temporary>
   </component>
@@ -399,7 +444,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1542435871875</updated>
-      <workItem from="1542435877409" duration="18786000" />
+      <workItem from="1542435877409" duration="21451000" />
     </task>
     <task id="LOCAL-00001" summary="Spring一些入门小练习">
       <created>1542437022989</created>
@@ -457,28 +502,17 @@
       <option name="project" value="LOCAL" />
       <updated>1542462846478</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Map,Properties的xml,set方式注入">
+      <created>1542464238856</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1542464238856</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PersonTest_test01_(1) - 2018.11.17 at 20h 46m 24s.xml">
-      <configuration name="PersonTest.test01 (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ContextPersonTest_test01 - 2018.11.17 at 21h 03m 09s.xml">
-      <configuration name="ContextPersonTest.test01" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ContextPersonTest_test01 - 2018.11.17 at 21h 03m 23s.xml">
-      <configuration name="ContextPersonTest.test01" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CollectionTest_test01 - 2018.11.17 at 21h 36m 13s.xml">
-      <configuration name="CollectionTest.test01" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CollectionTest_test01 - 2018.11.17 at 21h 36m 37s.xml">
-      <configuration name="CollectionTest.test01" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CollectionTest_test02 - 2018.11.17 at 21h 41m 56s.xml">
-      <configuration name="CollectionTest.test02" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="CollectionTest_test02 - 2018.11.17 at 21h 42m 18s.xml">
       <configuration name="CollectionTest.test02" configurationId="JUnit" />
     </history-entry>
@@ -491,9 +525,27 @@
     <history-entry file="MappingCollectionTest_test02 - 2018.11.17 at 22h 09m 54s.xml">
       <configuration name="MappingCollectionTest.test02" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ToolsTest_test01 - 2018.11.17 at 22h 43m 25s.xml">
+      <configuration name="ToolsTest.test01" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ToolsTest_test01 - 2018.11.17 at 22h 43m 53s.xml">
+      <configuration name="ToolsTest.test01" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ToolsTest_test01 - 2018.11.17 at 22h 45m 03s.xml">
+      <configuration name="ToolsTest.test01" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ToolsTest_test01 - 2018.11.17 at 22h 48m 44s.xml">
+      <configuration name="ToolsTest.test01" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ToolsTest_test01 - 2018.11.17 at 22h 51m 59s.xml">
+      <configuration name="ToolsTest.test01" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ToolsTest_test01 - 2018.11.17 at 22h 57m 43s.xml">
+      <configuration name="ToolsTest.test01" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18786000" />
+    <option name="totallyTimeSpent" value="21451000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
@@ -516,7 +568,7 @@
       <window_info anchor="right" id="Palette&#9;" />
       <window_info id="Image Layers" />
       <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.36134455" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.33893558" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Spring" />
       <window_info anchor="bottom" id="Terminal" />
@@ -546,7 +598,8 @@
     <MESSAGE value="p命名空间set方式注入" />
     <MESSAGE value="spEL表达式配合p命名空间使用" />
     <MESSAGE value="数组，list，set的xml,set方式注入" />
-    <option name="LAST_COMMIT_MESSAGE" value="数组，list，set的xml,set方式注入" />
+    <MESSAGE value="Map,Properties的xml,set方式注入" />
+    <option name="LAST_COMMIT_MESSAGE" value="Map,Properties的xml,set方式注入" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -804,28 +857,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Spring_Demo7/src/com/lfeifei/pojo/ArrayCollection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="60" column="43" selection-start-line="60" selection-start-column="43" selection-end-line="60" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#267#268#0" expanded="true" />
-            <element signature="e#299#300#0" expanded="true" />
-            <element signature="e#510#511#0" expanded="true" />
-            <element signature="e#542#543#0" expanded="true" />
-            <element signature="e#720#721#0" expanded="true" />
-            <element signature="e#750#751#0" expanded="true" />
-            <element signature="e#777#778#0" expanded="true" />
-            <element signature="e#842#843#0" expanded="true" />
-            <element signature="e#873#874#0" expanded="true" />
-            <element signature="e#927#928#0" expanded="true" />
-            <element signature="e#968#969#0" expanded="true" />
-            <element signature="e#1004#1005#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Spring_Demo7/src/com/lfeifei/test/CollectionTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
@@ -858,17 +889,63 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Spring_Demo8/src/config.xml">
+    <entry file="file://$PROJECT_DIR$/Spring_Demo8/src/com/lfeifei/test/MappingCollectionTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="19" column="36" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
+        <state relative-caret-position="322">
+          <caret line="24" column="26" lean-forward="true" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Spring_Demo8/src/com/lfeifei/test/MappingCollectionTest.java">
+    <entry file="file://$PROJECT_DIR$/Spring_Demo8/src/config.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="24" column="26" lean-forward="true" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
+        <state relative-caret-position="187">
+          <caret line="10" column="53" lean-forward="true" selection-start-line="10" selection-start-column="53" selection-end-line="10" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spring_Demo7/src/com/lfeifei/pojo/ArrayCollection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="32" column="16" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#474#475#0" expanded="true" />
+            <element signature="e#506#507#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spring_Demo_aop1/src/config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spring_Demo_aop1/src/com/lfeifei/pojo/Tools.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="62">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+          <folding>
+            <element signature="e#201#202#0" expanded="true" />
+            <element signature="e#229#230#0" expanded="true" />
+            <element signature="e#347#348#0" expanded="true" />
+            <element signature="e#375#376#0" expanded="true" />
+            <element signature="e#494#495#0" expanded="true" />
+            <element signature="e#526#527#0" expanded="true" />
+            <element signature="e#643#644#0" expanded="true" />
+            <element signature="e#671#672#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spring_Demo_aop1/src/com/lfeifei/test/ToolsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="18" column="18" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -924,12 +1001,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Spring_Demo8</last-edited>
+          <last-edited>Spring_Demo_aop1</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
