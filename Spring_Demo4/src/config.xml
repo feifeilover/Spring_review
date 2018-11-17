@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id="student" class="com.lfeifei.pojo.Student">
+        <!--构造器方式注入-->
+        <constructor-arg name="name" value="张张"></constructor-arg>
+        <constructor-arg name="message" value="喜欢你哦!"></constructor-arg>
+    </bean>
+
+</beans>
