@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id="mappingCollection" class="com.lfeifei.pojo.MappingCollection">
+        <property name="map">
+            <map>
+                <entry key="大华" value="1001"></entry>
+                <entry key="花花" value="1002"></entry>
+                <entry key="小花" value="1003"></entry>
+            </map>
+        </property>
+
+        <property name="props">
+            <props>
+                <prop key="id">1001</prop>
+                <prop key="name">城城</prop>
+                <prop key="gender">男</prop>
+            </props>
+        </property>
+    </bean>
+    
+</beans>
