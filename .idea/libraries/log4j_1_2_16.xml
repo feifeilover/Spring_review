@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="log4j-1.2.16">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Spring_Demo1/libs/log4j-1.2.16.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Spring_Demo1/libs/org.apache.commons.logging-1.1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Spring_Demo1/libs/spring-beans-4.3.9.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Spring_Demo1/libs/spring-context-4.3.9.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Spring_Demo1/libs/spring-core-4.3.9.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Spring_Demo1/libs/spring-expression-4.3.9.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
