@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id="arrayCollection" class="com.lfeifei.pojo.ArrayCollection">
+        <property name="arrs">
+            <array>
+                <value>tom</value>
+                <value>jack</value>
+                <value>marry</value>
+            </array>
+        </property>
+
+        <property name="list">
+            <list>
+                <value>lala</value>
+                <value>haha</value>
+                <value>xixi</value>
+            </list>
+        </property>
+
+        <property name="set">
+            <set>
+                <value>1001</value>
+                <value>1002</value>
+                <value>1003</value>
+                <value>1004</value>
+                <value>1003</value>
+                <value>1002</value>
+            </set>
+        </property>
+    </bean>
+
+</beans>
