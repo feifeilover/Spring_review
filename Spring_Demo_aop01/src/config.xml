@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/aop
+        http://www.springframework.org/schema/aop/spring-aop.xsd">
+
+    <!--配置业务层-->
+    <bean id="customerService" class="com.lfeifei.service.CustomerServiceImpl"></bean>
+    
+    <!--配置通知-->
+    <bean id="logAdvice" class="com.lfeifei.advice.LogAdvice"></bean>
+    
+    <!--配置Aop-->
+    <aop:config>
+        <!--设置切点-->
+        <aop:pointcut id="pp1" expression="execution(* com.lfeifei.service.CustomerServiceImpl.save(..))"/>
+        <aop:pointcut id="pp2" expression="execution(* com.lfeifei.service.CustomerServiceImpl.find(..))"/>
+        <aop:pointcut id="pp3" expression="execution(* com.lfeifei.service.CustomerServiceImpl.select(..))"/>
+        <aop:pointcut id="pp4" expression="execution(* com.lfeifei.service.CustomerServiceImpl.delete(..))"/>
+        <aop:pointcut id="pp5" expression="execution(* com.lfeifei.service.CustomerServiceImpl.save(..))"/>
+        <!--设置切面-->
+        <aop:aspect ref="logAdvice">
+            <aop:before method="beforeMethod" pointcut-ref="pp1"/>
+            <aop:after-returning method="afterReturnningMethod" pointcut-ref="pp2" returning="rs"/>
+            <aop:after method="afterMethod" pointcut-ref="pp3"/>
+            <aop:after-throwing method="throwExceptionMethod" pointcut-ref="pp4" throwing="ex"/>
+            <aop:around method="aroundMethod" pointcut-ref="pp5"/>
+        </aop:aspect>
+    </aop:config>
+</beans>
