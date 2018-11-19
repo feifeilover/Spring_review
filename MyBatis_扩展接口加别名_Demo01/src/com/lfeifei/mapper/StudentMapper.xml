@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!-- 指定命名空间(mapper接口的全类名) -->
+<mapper namespace="com.lfeifei.mapper.StudentMapper">
+    <!--根据id查询一个学生-->
+    <select id="selectStuById"  parameterType="int"  resultType="student">
+        SELECT * FROM student WHERE id=#{id}
+    </select>
+
+    <!--查询所有学生-->
+    <select id="selectAllStu" resultType="student">
+        SELECT * FROM student
+    </select>
+
+   <!--插入学生-->
+    <insert id="insertStu" parameterType="student" >
+        INSERT INTO student(id,NAME,sex,birthday,email) VALUE(#{id},#{name},#{sex},#{birthday},#{email})
+    </insert>
+
+    <!--修改学生-->
+    <update id="updateStu" parameterType="student">
+        UPDATE student SET NAME=#{name},sex=#{sex},birthday=#{birthday},email=#{email} WHERE id=#{id}
+    </update>
+
+    <!--删除学生-->
+    <delete id="deleteStuById" parameterType="int">
+        delete from student where id = #{id}
+    </delete>
+</mapper>
+
+
+
+
+
+
+
+
