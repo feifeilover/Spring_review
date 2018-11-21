@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!-- 指定命名空间(mapper接口的全类名) -->
+<mapper namespace="com.lfeifei.mapper.UserMapper">
+    <select id="selectUserByLoginNameAndPassword" parameterType="user" resultType="user">
+        SELECT id,username userName,loginname loginName,PASSWORD,gender,birthday,email FROM USER WHERE
+         loginname = #{loginName} AND PASSWORD = #{password}
+    </select>
+
+    <!--#{}的字段要与User中的字段保持一致-->
+    <!--username userName,loginname loginName设置别名-->
+    <select id="selectUserByLoginNameAndPassword2" resultType="user" parameterType="map">
+        SELECT id,username userName,loginname loginName,PASSWORD,gender,birthday,email FROM USER WHERE
+         loginname = #{loginName} AND PASSWORD = #{password}
+    </select>
+
+    <select id="selectUserByLoginNameAndPassword3" resultType="user" parameterType="QueryVo">
+        SELECT id,username userName,loginname loginName,PASSWORD,gender,birthday,email FROM USER WHERE
+         loginname = #{user.loginName} AND PASSWORD = #{user.password}
+    </select>
+
+    <select id="selectUserCount" resultType="int">
+        select count(1) from user
+    </select>
+
+    <select id="selectPart" resultType="user" parameterType="int">
+        SELECT id,username userName,loginname loginName,email FROM USER where id = #{id}
+    </select>
+
+    <select id="selectPart2" resultType="map" parameterType="int">
+        SELECT id,username userName,loginname loginName,email FROM USER where id = #{id}
+    </select>
+
+    <select id="selectPart3" resultType="map">
+        SELECT id,username userName,loginname loginName,email FROM USER
+    </select>
+
+    <resultMap id="userMap" type="user">
+        <id property="id" column="id"/>
+        <result property="loginName" column="loginname"/>
+        <result property="userName" column="username"/>
+        <result property="email" column="email"/>
+    </resultMap>
+
+    <select id="selectUserByResultMap" parameterType="int" resultMap="userMap">
+        SELECT id,username userName,loginname loginName,email FROM USER where id = #{id}
+    </select>
+</mapper>
