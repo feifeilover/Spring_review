@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!-- 指定命名空间(mapper接口的全类名) -->
+<mapper namespace="com.lfeifei.mapper.UserMapper">
+
+    <!--总的记录数-->
+    <select id="selectPagingCount" resultType="int" parameterType="string">
+        SELECT COUNT(1) FROM s_user WHERE NAME LIKE '%${value}%'
+    </select>
+
+    <!--模糊查询-->
+    <select id="selectUserByName" parameterType="map" resultType="user">
+        SELECT id,`name`,gender,age FROM s_user WHERE NAME LIKE '%${name}%' limit #{begin},#{size}
+    </select>
+</mapper>
