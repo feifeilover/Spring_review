@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!-- 指定命名空间(mapper接口的全类名) -->
+<mapper namespace="com.lfeifei.mapper.UserMapper">
+
+    <!--模糊查询总的记录数-->
+    <select id="fuzzySelectUserCount" resultType="int" parameterType="map">
+        SELECT COUNT(1) FROM s_user where
+
+
+          <if test="compo == 'name' ">
+              NAME LIKE '%${inputText}%'
+          </if>
+
+
+          <if test="compo == 'gender' ">
+              gender like '%${inputText}%'
+          </if>
+
+    </select>
+
+    <!--姓名，性别，模糊查询-->
+    <select id="selectUserByFuzzy" parameterType="map" resultType="user">
+        SELECT id,`name`,gender,age FROM s_user where
+
+            <if test="compo == 'name' ">
+                NAME LIKE '%${inputText}%' LIMIT #{begin},#{size}
+            </if>
+
+            <if test="compo == 'gender' ">
+                gender LIKE '%${inputText}%' LIMIT #{begin},#{size}
+            </if>
+
+    </select>
+</mapper>
